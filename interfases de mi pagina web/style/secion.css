@@ -1,0 +1,60 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    background: linear-gradient(to right,rgb(188, 246, 108),green);
+
+}
+
+#login {
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: #7bac848d; /* Azul claro */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(11, 6, 6, 0); /* Sombra alrededor del formulario */
+    top: 100px;
+}
+
+#login h2 {
+    text-align: center;
+    color: #333;
+}
+
+#login label {
+    display: block;
+    margin-top: 10px;
+}
+
+#login input[type="text"],
+#login input[type="password"] {
+    width: 93%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+#login input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #7d7e6d; /* Tomate */
+    color: rgb(255, 255, 255);
+    border: none;
+    margin-top: 15px;
+    cursor: pointer; /* Cambia el cursor a una mano cuando se pasa por encima */
+}
+
+#login a {
+    text-decoration: none;
+    color: #373333;
+}
+
+#login a:hover {
+    color: #35130d; /* Tomate */
+}
+

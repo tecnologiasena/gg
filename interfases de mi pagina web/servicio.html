@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/style/servicio.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="registro.html">Registro</a></li>
+            <li><a href="secion.htm">iniciar secion</a></li>
+            <li><a href="servicio.html">servicio</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+    <section id="servicios">
+        <h2>Servicios</h2>
+        <p>Ofrecemos una amplia gama de servicios, desde reparaciones básicas hasta ajustes personalizados y mantenimiento preventivo. Nuestro equipo de expertos está aquí para ayudarte a mantener tu bicicleta en perfecto estado.</p>
+    </section>
+    <form  role="form"  method="post" action="productos_save.php"  name="FrmDatos" data-parsley-validate novalidate>
+        <div class="row">
+            <div class="col-md-12 form-group">
+                <label>Nombre(*)</label>
+                <input class="form-control" type="text" name="Nombre" required placeholder="Nombre del producto"  >
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 form-group">
+                <label>Descripcion(*)</label>
+                <input class="form-control" type="text" name="Descripcion" required placeholder="Breve descripcion del producto" >
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 form-group">
+                <label>Cantidad Inicial(*)</label>
+                <input class="form-control" type="number" name="Cantidad" 
+                required placeholder="Cantidad Inicial" min="1" value="1">
+            </div>
+            <div class="col-md-4 form-group">
+                <label>Costo del Producto(*)</label>
+                <input class="form-control" type="number" name="Costo" required >
+            </div>
+            <div class="col-md-4 form-group">
+                <label>Precio de Venta(*)</label>
+                <input class="form-control" type="number" name="PrecioVenta" required >
+            </div>
+        </div>
+        <!--<hr />-->
+        <button type="submit" class="btn btn-success"> <i class="fa fa-save"></i> Guardar</button>
+        <button type="button" class="btn btn-primary" onClick="javascript:history.back()"> <i class="fa fa-undo"></i> Cancelar</button>
+        <input type="hidden" name="MM_insert" value="FrmDatos" />
+
+        <br /><br />
+
+         <!--estilos -->
+         
+    </form>
+    
+    <footer>
+        <p>Derechos reservados &copy; 2023</p>
+    </footer>
+ 
+
+
+    
+</body>
+</html>

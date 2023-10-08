@@ -1,0 +1,111 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right,rgb(193, 238, 130),green);
+}
+   
+
+header {
+    background-color: #130f0c; /* Tomate */
+    color: rgb(171, 171, 110);
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    background-color: #add8e6; /* Azul claro */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #574141;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #161010;
+}
+
+section {
+    margin: 15px;
+}
+
+section h2 {
+    color: #323f32; /* Verde */
+}
+
+section p {
+    text-align: justify;
+}
+
+article {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #4e414e; /* Púrpura */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+}
+
+.conteiner{
+    position: relative;
+}
+
+
+
+.texto{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: rgb(35, 29, 29);
+
+}
+.imagen{
+    float: right;
+    margin: 0 0 20px 20px;
+    max-width: 25%;
+    height: auto;
+
+}
+
+.imagen2{
+    float: left;
+    margin: 0 20px 20px;
+    max-width: 25%;
+    height: auto;
+
+
+
+}
+.titulointerno{
+    font-size: 24px;
+    padding: 0 0 0 20px;
+    margin: 0;
+}
+
